@@ -110,6 +110,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ContextManager.h" />
+    <ClInclude Include="Receiver.h" />
+    <ClInclude Include="Strategy.h" />
+    <ClInclude Include="StrategyOne.h" />
+    <ClInclude Include="StrategyTwo.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TestCase.h" />
+    <ClInclude Include="TypeTestInt.h" />
+    <ClInclude Include="TypeTestString.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ContextManager.cpp" />
+    <ClCompile Include="Receiver.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Strategy.cpp" />
+    <ClCompile Include="StrategyOne.cpp" />
+    <ClCompile Include="StrategyTwo.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="TestCase.cpp" />
+    <ClCompile Include="TypeTestInt.cpp" />
+    <ClCompile Include="TypeTestString.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
